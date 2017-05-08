@@ -1,32 +1,25 @@
-# source ~/.profile
 # ~/.bash_profile
 
-# Use MAMP version of PHP
-export PATH=/Applications/MAMP/bin/php/5.6.10/bin:$PATH
-export PATH=~/.composer/vendor/bin:$PATH
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.composer/vendor/bin
+# Construct and export our PATH
+export PATH=""
+export PATH="$PATH:/usr/local/bin"
+export PATH="$PATH:/usr/local/sbin"
+export PATH="$PATH:/usr/bin"
+export PATH="$PATH:/usr/sbin"
+export PATH="$PATH:/bin"
+export PATH="$PATH:/sbin"
+export PATH="$PATH"
 
-# Export MAMP MySQL executables as functions
-# Makes them usable from within shell scripts (unlike an alias)
-mysql() {
-    /Applications/MAMP/Library/bin/mysql "$@"
-}
-mysqladmin() {
-    /Applications/MAMP/Library/bin/mysqladmin "$@"
-}
-export -f mysql
-export -f mysqladmin
+# Composer
+export PATH="$PATH:~/.composer/vendor/bin"
 
-alias drupalcs="phpcs --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
+# Yarn
+export PATH="$PATH:`yarn global bin`"
 
-alias drupalbestcs="phpcs --standard=DrupalPractice --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
-
-alias drupalfixcs="phpcbf --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
-
+# Sublime text alias
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
-[[ -s ~/.bashrc ]] && source ~/.bashrc
-
+# Shell colors
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
@@ -54,5 +47,3 @@ function prompt {
 }
 
 prompt
-
-export PATH="/usr/local/sbin:$PATH"
