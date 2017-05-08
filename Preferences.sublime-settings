@@ -1,15 +1,15 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
-	"font_face": "Menlo Regular",
-	"font_size": 14,
-	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"spell_check": true,
-	"tab_size": 2,
-	"theme": "Boxy Tomorrow.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+  "color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+  "font_face": "Menlo Regular",
+  "font_size": 14,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "spell_check": true,
+  "tab_size": 2,
+  "theme": "Boxy Tomorrow.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
 }
