@@ -4,3 +4,8 @@
   - https://github.com/JhonatanFerrer/JhoalfercoHyprlandDotfiles
 - nvim config (not in repo - may add customizations later)
   - https://github.com/BreadOnPenguins/nvim
+- Using Hack Nerd Mono Font from Nerd Fonts
+  - https://www.nerdfonts.com
+- Use the Nerd Fonts Cheat Sheet to find symbols
+  - https://www.nerdfonts.com/cheat-sheet
+- In iTerm2 under profiles > Text > Text Rendering > Check Use built-in Powerline glyphs. Otherwise adjusting text sizes will be required to make symbols line up correctly.
