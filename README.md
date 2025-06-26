@@ -9,3 +9,5 @@
 - Use the Nerd Fonts Cheat Sheet to find symbols
   - https://www.nerdfonts.com/cheat-sheet
 - In iTerm2 under profiles > Text > Text Rendering > Check Use built-in Powerline glyphs. Otherwise adjusting text sizes will be required to make symbols line up correctly.
+
+![image](https://github.com/mitchellshelton/configfiles/blob/3ffc1d03cf62aa49ba1c94dfa313ff632129f513/assets/terminal-screenshot.png)
