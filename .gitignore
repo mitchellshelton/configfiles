@@ -6,4 +6,6 @@
 !custom-config.sh
 !/fastfetch/
 !/fastfetch/*
+!/assets/
+!/assets/*
 /fastfetch/.DS_Store
