@@ -8,4 +8,8 @@
 !/fastfetch/*
 !/assets/
 !/assets/*
-/fastfetch/.DS_Store
+!/btop/
+!/btop/*
+!/nvim/
+!/nvim/*
+/*/.DS_Store
