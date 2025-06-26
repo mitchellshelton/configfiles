@@ -1,0 +1,9 @@
+# Ignore all
+*
+
+# Do not ignore
+!.gitignore
+!custom-config.sh
+!/fastfetch/
+!/fastfetch/*
+/fastfetch/.DS_Store
