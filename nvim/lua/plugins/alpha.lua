@@ -1,29 +1,19 @@
 local dashboard = require("alpha.themes.dashboard")
+local alpha = require("alpha")
 dashboard.section.header.val = {
-  [[                                                                                          ]],
-  [[                                                                     00000                ]],
-  [[                                                                     00000                ]],
-  [[                                                                0000000000                ]],
-  [[                                                                0000000000                ]],
-  [[                                       00000               00000     00000                ]],
-  [[                                       00000               00000     00000                ]],
-  [[                                  0000000000          00000          00000                ]],
-  [[                                  0000000000          00000          00000                ]],
-  [[                             00000     00000     00000     00000     00000                ]],
-  [[                             00000     00000     00000     00000     00000                ]],
-  [[         00000000000000000000          0000000000     0000000000     00000000000000000000 ]],
-  [[         00000000000000000000          0000000000     0000000000     00000000000000000000 ]],
-  [[                             00000     00000     00000     00000     00000                ]],
-  [[                             00000     00000     00000     00000     00000                ]],
-  [[                                  0000000000          00000          00000                ]],
-  [[                                  0000000000          00000          00000                ]],
-  [[                                       00000               00000     00000                ]],
-  [[                                       00000               00000     00000                ]],
-  [[                                                                0000000000                ]],
-  [[                                                                0000000000                ]],
-  [[                                                                     00000                ]],
-  [[                                                                     00000                ]],
-  [[                                                                                          ]],
+  [[                              ]],
+  [[                       00     ]],
+  [[                     0000     ]],
+  [[           00      00  00     ]],
+  [[         0000    00    00     ]],
+  [[       00  00  00  00  00     ]],
+  [[ 000000  000000  0000  000000 ]],
+  [[       00  00  00  00  00     ]],
+  [[         0000    00    00     ]],
+  [[           00      00  00     ]],
+  [[                     0000     ]],
+  [[                       00     ]],
+  [[                              ]],
 }
 
 dashboard.section.buttons.val = {
@@ -45,4 +35,22 @@ end
 dashboard.section.header.opts.hl = "AlphaHeader"
 dashboard.section.buttons.opts.hl = "AlphaButtons"
 dashboard.section.footer.opts.hl = "AlphaFooter"
-dashboard.opts.layout[1].val = 8
+dashboard.opts.layout[1].val = 1
+
+alpha.setup({
+  layout = {
+    {
+      type = "text",
+      val = dashboard.section.header.val,
+      opts = { position = "center", hl = "AlphaHeader" },
+    },
+    { type = "padding", val = 0 },
+    {
+      type = "group",
+      opts = { position = "center" },
+      val = dashboard.section.buttons.val,
+    },
+  },
+})
+
+
