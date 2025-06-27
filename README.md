@@ -12,3 +12,4 @@
 
 ![image](https://github.com/mitchellshelton/configfiles/blob/3ffc1d03cf62aa49ba1c94dfa313ff632129f513/assets/terminal-screenshot.png)
 
+![image](https://github.com/mitchellshelton/configfiles/blob/f26a82a997385275651b3e9b5c31d9d8c12c2059/assets/nvim-and-others-screenshot.png)
