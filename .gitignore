@@ -12,4 +12,7 @@
 !/btop/*
 !/nvim/
 !/nvim/*
+!/nvim/lua/*
+!/nvim/lua/config/*
+!/nvim/lua/plugins/*
 /*/.DS_Store
